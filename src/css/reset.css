@@ -1,41 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
 @keyframes appear {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-body{
-    background: #CECCC9;
-    font-family: 'Roboto', sans-serif;
-    animation: appear 5s linear;
+body {
+  background: #CECCC9;
+  font-family: 'Roboto', sans-serif;
+  animation: appear 5s linear;
 
 }
 
-@keyframes movePokemon{
-    0%{
-        margin-left: 0;
-    }
-    25%{
-        margin-left: 8px;
-    }
-    50%{
-        margin-left: 16px;
-    }
-    75%{
-        margin-left: 8px;
-    }
-    100%{
-        margin-left: 0;
-    }
-}
+@keyframes movePokemon {
+  0% {
+    margin-left: 0;
+  }
 
+  25% {
+    margin-left: 8px;
+  }
+
+  50% {
+    margin-left: 16px;
+  }
+
+  75% {
+    margin-left: 8px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}

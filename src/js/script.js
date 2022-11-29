@@ -34,53 +34,53 @@ const elementoDescriptionPokemon05 = document.getElementById('descriptionPokemon
 const elementoDescriptionPokemon06 = document.getElementById('descriptionPokemon06')
 
 
-function addNamePokemon(){
-    elementNamePokemon01.innerHTML = Data[0].name;
-    elementNamePokemon02.innerHTML = Data[1].name;
-    elementNamePokemon03.innerHTML = Data[2].name;
-    elementNamePokemon04.innerHTML = Data[3].name;
-    elementNamePokemon05.innerHTML = Data[4].name;
-    elementNamePokemon06.innerHTML = Data[5].name;
+function addNamePokemon() {
+  elementNamePokemon01.innerHTML = Data[0].name;
+  elementNamePokemon02.innerHTML = Data[1].name;
+  elementNamePokemon03.innerHTML = Data[2].name;
+  elementNamePokemon04.innerHTML = Data[3].name;
+  elementNamePokemon05.innerHTML = Data[4].name;
+  elementNamePokemon06.innerHTML = Data[5].name;
 
-    addDexNumber()
-    addPokemonType()
-    addDescription()
+  addDexNumber()
+  addPokemonType()
+  addDescription()
 }
 
-function addDexNumber(){
-    elementoDexNumber01.innerHTML = Data[0].dexNumber
-    elementoDexNumber02.innerHTML = Data[1].dexNumber
-    elementoDexNumber03.innerHTML = Data[2].dexNumber
-    elementoDexNumber04.innerHTML = Data[3].dexNumber
-    elementoDexNumber05.innerHTML = Data[4].dexNumber
-    elementoDexNumber06.innerHTML = Data[5].dexNumber
-    
-}
-
-function addPokemonType(){
-    elementoFirstPokemonType01.innerHTML = Data[0].Type01
-    elementoFirstPokemonType02.innerHTML = Data[1].Type01
-    elementoFirstPokemonType03.innerHTML = Data[2].Type01
-    elementoFirstPokemonType04.innerHTML = Data[3].Type01
-    elementoFirstPokemonType05.innerHTML = Data[4].Type01
-    elementoFirstPokemonType06.innerHTML = Data[5].Type01
-
-    elementoSecondPokemonType01.innerHTML = Data[0].type02
-    elementoSecondPokemonType02.innerHTML = Data[1].type02
-    elementoSecondPokemonType03.innerHTML = Data[2].type02
-    elementoSecondPokemonType04.innerHTML = Data[3].type02
-    elementoSecondPokemonType05.innerHTML = Data[4].type02
-    elementoSecondPokemonType06.innerHTML = Data[5].type02
+function addDexNumber() {
+  elementoDexNumber01.innerHTML = Data[0].dexNumber
+  elementoDexNumber02.innerHTML = Data[1].dexNumber
+  elementoDexNumber03.innerHTML = Data[2].dexNumber
+  elementoDexNumber04.innerHTML = Data[3].dexNumber
+  elementoDexNumber05.innerHTML = Data[4].dexNumber
+  elementoDexNumber06.innerHTML = Data[5].dexNumber
 
 }
 
-function addDescription(){
-    elementoDescriptionPokemon01.innerHTML = Data[0].description
-    elementoDescriptionPokemon02.innerHTML = Data[1].description
-    elementoDescriptionPokemon03.innerHTML = Data[2].description
-    elementoDescriptionPokemon04.innerHTML = Data[3].description
-    elementoDescriptionPokemon05.innerHTML = Data[4].description
-    elementoDescriptionPokemon06.innerHTML = Data[5].description
+function addPokemonType() {
+  elementoFirstPokemonType01.innerHTML = Data[0].Type01
+  elementoFirstPokemonType02.innerHTML = Data[1].Type01
+  elementoFirstPokemonType03.innerHTML = Data[2].Type01
+  elementoFirstPokemonType04.innerHTML = Data[3].Type01
+  elementoFirstPokemonType05.innerHTML = Data[4].Type01
+  elementoFirstPokemonType06.innerHTML = Data[5].Type01
+
+  elementoSecondPokemonType01.innerHTML = Data[0].type02
+  elementoSecondPokemonType02.innerHTML = Data[1].type02
+  elementoSecondPokemonType03.innerHTML = Data[2].type02
+  elementoSecondPokemonType04.innerHTML = Data[3].type02
+  elementoSecondPokemonType05.innerHTML = Data[4].type02
+  elementoSecondPokemonType06.innerHTML = Data[5].type02
+
+}
+
+function addDescription() {
+  elementoDescriptionPokemon01.innerHTML = Data[0].description
+  elementoDescriptionPokemon02.innerHTML = Data[1].description
+  elementoDescriptionPokemon03.innerHTML = Data[2].description
+  elementoDescriptionPokemon04.innerHTML = Data[3].description
+  elementoDescriptionPokemon05.innerHTML = Data[4].description
+  elementoDescriptionPokemon06.innerHTML = Data[5].description
 }
 
 addNamePokemon()
